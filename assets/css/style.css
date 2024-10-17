@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+ .container {
+    width: min(100% - 30px, 1200px);
+    margin-inline: auto;
+  }
+
+
+
+ 
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    background-color:rgb(15, 15, 15);
+}
+
+ .maincard {
+    margin-top: 30px;
+    padding-bottom: 0px;
+    width: 400px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #373a37;  
+    color: rgb(238, 241, 244);
+    background-color: rgb(32, 29, 29);
+}
+
+.system {
+    margin-top: 60px;
+}
+
+
+
+.infotitle{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 40px;
+}
+
+.sysinfo{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    background-color:  rgb(15, 15, 15);
+    height: 120px;
+}
+
+.battery {
+    height: 120px;
+}
+
+.batteryinfo {
+    height: 80px;
+}
+
+p{
+    margin: 10px;
+}
+
+.status-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-weight: 500;
+    margin: 30px 0;
+    padding-bottom: 0px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #373a37;  
+    background-color: rgb(21, 197, 30);
+}
+
+
+
